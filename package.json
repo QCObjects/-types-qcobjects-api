@@ -1,0 +1,20 @@
+{
+    "name": "@types/qcobjects-api",
+    "version": "1.0.0",
+    "description": "Types for TypeScript support in QCObjects Microservices",
+    "homepage": "https://qcobjects.dev",
+    "license": "LGPL-3.0",
+    "author": "Jean Machuca <correojean@gmail.com>",
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {},
+    "scripts": {},
+    "typeScriptVersion": "5.0",
+    "devDependencies": {
+        "@types/qcobjects": "github:QCObjects/-types-qcobjects",
+        "qcobjects-cli": "^2.4.42"
+    },
+    "dependencies": {
+        "@types/node": "^18.16.2"
+    }
+}
