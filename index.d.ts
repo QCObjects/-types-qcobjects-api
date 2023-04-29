@@ -5,7 +5,7 @@
 
 import { ClientRequest } from "http";
 import { Http2SecureServer, Http2Server, Http2ServerRequest, Http2Stream } from "http2";
-import { InheritClass } from "qcobjects";
+import { QCObjectsElement, QCObjectsShadowedElement, InheritClass } from "qcobjects";
 import { Stream } from "stream";
 
 /**
@@ -24,7 +24,7 @@ declare namespace api {
 
     class BackendMicroservice extends InheritClass{
         domain:string;
-        body:any;
+        body:QCObjectsElement | QCObjectsShadowedElement | HTMLElement | string | undefined;
         basePath:string;
         route:Route;
         projectPath?:string;
