@@ -24,6 +24,7 @@ declare namespace api {
 
     class BackendMicroservice extends InheritClass{
         domain:string;
+        body:any;
         basePath:string;
         route:Route;
         projectPath?:string;
